@@ -10,7 +10,7 @@
       <?php foreach($subpage->images() as $image): ?>
       <figure>
         <a href="<?php echo $image->url() ?>">
-          <img src="<?php echo $image->url() ?>" alt="">
+        <?php echo thumb($image, array('width' => 800, 'height' => 800)); ?>
         </a>
       </figure>
       <?php endforeach ?>
