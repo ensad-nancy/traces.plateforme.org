@@ -2,6 +2,8 @@
 thumbs/
 site/accounts/
 content/
+bower_components/
+node_modules/
 
 # Windows image file caches
 Thumbs.db

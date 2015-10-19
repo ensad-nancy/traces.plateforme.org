@@ -1,0 +1,17 @@
+@import '../../bower_components/bootstrap/scss/bootstrap.scss';
+
+.project-list img{
+  max-width: 100%;
+}
+h1 {
+  text-align: center;
+  border-bottom: 3px solid gold;
+  padding-bottom: 20px;
+}
+.trace {
+  list-style: decimal-leading-zero;
+}
+
+body {
+  // color: yellow;
+}
